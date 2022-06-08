@@ -5,5 +5,10 @@
     ônibus escolar chamado Steve, verde com teto branco, todo adaptado à família.</string>
     <string name="movie_name">Captain Fantastic</string>
     <string name="synopsis_button">Sinopse</string>
+    <string name="title_synopsis_layout">Sinopse</string>
+    <string name="textview_synopsis_text">Nas florestas do estado de Washington, um pai cria seus
+        seis filhos longe da civilização, em uma rígida rotina de aventuras. Ele é forçado a deixar
+        o isolamento e leva sua família para encarar o mundo, desafiando sua ideia do que significa
+        ser pai.</string>
     <string name="eval_button">Avaliação</string>
 </resources>

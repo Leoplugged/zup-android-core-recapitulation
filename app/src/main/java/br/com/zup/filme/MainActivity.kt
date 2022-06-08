@@ -18,11 +18,16 @@ class MainActivity : AppCompatActivity() {
 
         val buttonSynopsis = findViewById<Button>(R.id.button_synopsis)
         buttonSynopsis.setOnClickListener {
+
+            //Criação de uma intenção que fará com que o usuário saia da MainActivity e vá para o DetalheFilmeActivity
             val intent = Intent(this, FilmeDetails::class.java)
+
+            val nomeDoFilme = "Captain Fantastic"
+            val bundle = Bundle()
+            bundle.putString("nomeDoFilme", nomeDoFilme)
+            intent.putExtra("Message", bundle)
+
             startActivity(intent)
-
         }
-
-
     }
 }
