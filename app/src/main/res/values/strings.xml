@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Filme</string>
+    <string name="imageview_movie_description">Poster de Cartaz do filme Capitain Fantastic. No lado
+    esquerdo está o pai no meio de 6 filhos, cada um vestindo à tua maneira, todos no lado do
+    ônibus escolar chamado Steve, verde com teto branco, todo adaptado à família.</string>
+    <string name="movie_name">CAPTAIN FANTASTIC</string>
+</resources>
