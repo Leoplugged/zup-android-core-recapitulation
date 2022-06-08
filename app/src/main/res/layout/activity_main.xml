@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/altura_210"
+        android:contentDescription="@string/image_description"
+        android:src="@drawable/the_midnight_gospel" />
+
+    <TextView
+        android:id="@+id/textview_wellcome"
+        android:layout_width="@dimen/largura_200"
+        android:layout_height="@dimen/altura_54"
+        android:layout_gravity="center"
+        android:text="@string/textview_wellcome"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text_color_deep_purple"
+        android:textSize="@dimen/text_20" />
+
+    <TextView
+        android:id="@+id/textview_dev_name"
+        android:layout_width="@dimen/largura_300"
+        android:layout_height="@dimen/altura_63"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:elegantTextHeight="true"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+        android:text="@string/textview_dev_name"
+        android:textColor="@color/secondary_text_color_black"
+        android:textSize="@dimen/text_20" />
+
+</LinearLayout>

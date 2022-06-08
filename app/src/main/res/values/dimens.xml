@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="largura_200">200dp</dimen>
+    <dimen name="largura_300">300dp</dimen>
+    <dimen name="altura_100">100dp</dimen>
+    <dimen name="altura_150">150dp</dimen>
+    <dimen name="altura_210">210dp</dimen>
+    <dimen name="altura_54">54dp</dimen>
+    <dimen name="altura_63">63dp</dimen>
+    <dimen name="text_20">20sp</dimen>
+</resources>

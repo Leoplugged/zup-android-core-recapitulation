@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">The Midnight Gospel</string>
+    <string name="textview_wellcome">Wellcome to my Psychedelic Universe!</string>
+    <string name="textview_dev_name">Leandro Miguel</string>
+    <string name="image_description">Olhos psicodélicos de Clacy Gilroy, personagem do desenho The
+        Midnight Gospel.</string>
+</resources>
