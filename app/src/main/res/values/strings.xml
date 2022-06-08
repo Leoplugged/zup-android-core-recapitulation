@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Meu Pet</string>
+    <string name="textview_initial_title">Essa é a foto do meu Pet</string>
+    <string name="pet_info">Nome:   Salomão\n\nRaça:   SRD (Sem Raça Definida)\n\nIdade:  12 anos</string>
+    <string name="button_message">Mensagem</string>
+    <string name="imageview_image_description">Foto de perfil do Salomão, um gato preto com olho âmbar.</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_initial_title"
+        android:textSize="@dimen/textview_textsize_16"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/textview_margintop_30"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/imageview_width_200"
+        android:layout_height="@dimen/imageview_height_200"
+        android:src="@drawable/salomao"
+        android:layout_marginTop="@dimen/textview_margintop_30"
+        android:contentDescription="@string/imageview_image_description"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pet_info"
+        android:textSize="@dimen/textview_textsize_12"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/textview_margintop_30"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/botaoPet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/secondary_color_blue_light"
+        android:text="@string/button_message"
+        android:textSize="@dimen/textview_textsize_14"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/textview_margintop_30"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textview_textsize_16">16sp</dimen>
+    <dimen name="textview_margintop_30">30dp</dimen>
+    <dimen name="imageview_width_200">200dp</dimen>
+    <dimen name="imageview_height_200">200dp</dimen>
+    <dimen name="textview_textsize_12">12sp</dimen>
+    <dimen name="textview_textsize_14">14sp</dimen>
+</resources>
