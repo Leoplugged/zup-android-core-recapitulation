@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/imageview_height_412"
+        android:layout_gravity="center"
+        android:src="@drawable/emicidaamarelocapa"
+        android:contentDescription="@string/image_description"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/music_title"
+        android:textStyle="bold"
+        android:textSize="@dimen/textview_textsize_16"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Enquanto lavo um banheiro, uma louça, querendo lavar a alma\n
+Na calma da semente que germina\n
+Que eu preciso olhar minhas menina\n\n
+A folha amarela, igual comida, envelhece\n
+É a vida, acontece com pessoa e documento\n
+É tão triste ter que vir, coisa ruim pra nos unir\n
+E nem assim agora, mano, vamo' embora a tempo\n\n
+Viver é partir, voltar e repartir (é isso)\n
+Partir, voltar e repartir (é tudo pra ontem)\n
+Viver é partir, voltar e repartir\n
+Partir, voltar e repartir"
+        android:textAlignment="center"
+        android:textSize="@dimen/textview_textsize_12"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
