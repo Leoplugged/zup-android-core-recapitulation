@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="height_250">250dp</dimen>
+    <dimen name="margin_top_30">30dp</dimen>
+    <dimen name="margin_top_24">24dp</dimen>
+    <dimen name="margin_top_18">18dp</dimen>
     <dimen name="margin_top_10">10dp</dimen>
     <dimen name="textsize_16">16sp</dimen>
 </resources>

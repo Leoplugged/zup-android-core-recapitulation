@@ -1,26 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <ImageView
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+ >
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/height_250"
-        android:layout_marginTop="@dimen/margin_top_10"
-        android:contentDescription="@string/imageview_movie_description"
-        android:scaleType="centerCrop"
-        android:src="@drawable/captain_fantastic" />
-
-    <TextView
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/movie_name"
-        android:textSize="@dimen/textsize_16"
-        android:textStyle="bold"
-        android:layout_marginTop="@dimen/margin_top_10"
-        android:layout_gravity="center"/>
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
 
-</LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_250"
+            android:layout_marginTop="@dimen/margin_top_30"
+            android:contentDescription="@string/imageview_movie_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/captain_fantastic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_name"
+            android:textAllCaps="true"
+            android:textSize="@dimen/textsize_16"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_top_24"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button_evaluation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eval_button"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_top_24"
+            android:backgroundTint="@color/teal_700"/>
+
+        <Button
+            android:id="@+id/button_synopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/synopsis_button"
+            android:layout_margin="@dimen/margin_top_18"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/teal_700"
+            android:layout_marginTop="@dimen/margin_top_10"/>
+
+    </LinearLayout>
+</ScrollView>
