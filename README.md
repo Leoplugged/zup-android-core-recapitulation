@@ -6,3 +6,5 @@ Recapitulação de aulas do módulo 5 de desenvolvimento de apps para Android
 - Aula 36: Exercício 01 - App "Movie" 
 - Aula 36: Exercício 02 - App "MyPet" 
 - Aula 36: Exercício 03 - App "FavoriteMusic"
+- Aula 37: Update App "Movie"
+- 
